@@ -1,3 +1,3 @@
-    document.getElementById('myButton').addEventListener('click', () => {
+    document.getElementById('feedUser').addEventListener('click', () => {
       alert('Button clicked!');
     });
