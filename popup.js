@@ -1,5 +1,5 @@
     document.getElementById('feedUser').addEventListener('click', () => {
-      alert('Button clicked!');
+      alert('MMM YUM!');
     });
     document.getElementById('next').addEventListener('click', () => {
       alert('Buttton clicked!');
