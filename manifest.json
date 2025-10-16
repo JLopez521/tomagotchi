@@ -8,7 +8,8 @@
     "activeTab"
   ],
   "icons": {
-    "16": "icon16.png"
+    "16": "icon16.png",
+    "128": "drity2.png"
   },
   "action": {
     "default_popup": "popup.html"

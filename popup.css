@@ -15,6 +15,17 @@
     }
     #next {
       position: relative;
-      left: 340px;
+      left: 330px;
       top: 200px;
+    }
+    .sprite {
+      width: 200px;        /* Set width and height to match your image */
+      height: 200px;
+      position: relative;
+      left: 100px;
+      top: 202px;
+      background-image: url('drity2.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }

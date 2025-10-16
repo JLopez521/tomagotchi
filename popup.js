@@ -2,5 +2,5 @@
       alert('MMM YUM!');
     });
     document.getElementById('next').addEventListener('click', () => {
-      alert('Buttton clicked!');
+      alert("We don't shower... give it a week.");
     });
