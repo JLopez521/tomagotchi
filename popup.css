@@ -23,9 +23,21 @@
       height: 200px;
       position: relative;
       left: 100px;
-      top: 202px;
+      top: 240px;
       background-image: url('drity2.png');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
+    }
+    #message {
+      display: none;
+      margin-top: 10px;
+      color: rgb(3, 255, 213);
+      position: relative;
+      left: 200px;
+      top: 50px;
+      width: 100px;
+      font-size: 12px;
+      text-align: center;
+      background-color: rgb(255, 255, 255) 
     }
