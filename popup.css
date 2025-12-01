@@ -10,6 +10,8 @@
     }
     #feedUser {
       position: relative;
+      color: rgb(213, 3, 255);
+      text-align: center;
       left: 425px;
       top: 175px;
     }
