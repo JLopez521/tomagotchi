@@ -6,5 +6,9 @@
       }, 2000);
     });
     document.getElementById('next').addEventListener('click', () => {
-      alert("We don't shower... give it a week.");
+      const msg = document.getElementById('text');
+      msg.style.display = "block";
+      setTimeout(() => {
+        msg.style.display = "none";
+      }, 2000);
     });
