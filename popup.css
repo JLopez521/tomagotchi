@@ -57,3 +57,19 @@
       text-align: center;
       background-color: rgba(255, 255, 255, 0.381);
     }
+        .sprite {
+        width: 64px; /* Width of a single frame */
+        height: 64px; /* Height of a single frame */
+        background-image: url('pizza.png');
+        background-position: 0 0; /* Initial position */
+        animation: walk 1s steps(8) infinite; /* Example animation */
+    }
+
+    @keyframes walk {
+        from {
+            background-position: 0px;
+        }
+        to {
+            background-position: -512px; /* (Frame width * number of frames) */
+        }
+    }
