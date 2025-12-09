@@ -12,15 +12,35 @@
         msg.style.display = "none";
       }, 2000);
     });
-        // Example for moving a sprite with JavaScript
-    let spriteElement = document.getElementById('mySprite');
-    let xPos = 0;
+const pizza = document.getElementById('pizza');
 
-    function animateSprite() {
-        xPos += 5; // Move 5 pixels to the right
-        spriteElement.style.left = xPos + 'px';
-        requestAnimationFrame(animateSprite);
+let animating = false;
+
+function resetPizza() {
+  pizza.style.top = '-100px'; // back above the screen
+}
+
+function startPizzaAnimation() {
+  if (animating) return; // don't start if already running
+
+  animating = true;
+  let y = -100;          // same as CSS top
+  const targetY = 170;   // where you want it to "hit" the boy
+
+  function step() {
+    y += 4;              // speed: 4px per frame
+    pizza.style.top = y + 'px';
+
+    if (y < targetY) {
+      requestAnimationFrame(step);
+    } else {
+      // pause on his face, then reset
+      setTimeout(() => {
+        resetPizza();
+        animating = false;
+      }, 500);
     }
+  }
 
-    // Call animateSprite() to start the animation
-    // You might trigger this on a button click or when the extension loads
+  requestAnimationFrame(step);
+}

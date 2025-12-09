@@ -22,12 +22,12 @@
       left: 330px;
       top: 200px;
     }
-    .sprite {
-      width: 200px;        /* Set width and height to match your image */
+    #dirtyBoy {
+      position: absolute;
+      width: 200px;
       height: 200px;
-      position: relative;
-      left: 100px;
-      top: 240px;
+      bottom: 10px;      /* sits near the bottom */
+      left: 150px;       /* center-ish */
       background-image: url('drity2.png');
       background-size: contain;
       background-repeat: no-repeat;
@@ -57,12 +57,16 @@
       text-align: center;
       background-color: rgba(255, 255, 255, 0.381);
     }
-        .sprite {
-        width: 64px; /* Width of a single frame */
-        height: 64px; /* Height of a single frame */
-        background-image: url('https://png.pngtree.com/png-clipart/20211116/original/pngtree-pizza-pixel-png-image_6940675.png');
-        background-position: 0 0; /* Initial position */
-        animation: walk 1s steps(8) infinite; /* Example animation */
+    #pizza {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      top: -100px;       /* start off-screen above */
+      left: 210px;       /* roughly over his mouth */
+      background-image: url('pizza.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     @keyframes walk {

@@ -15,7 +15,7 @@
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-        "https://png.pngtree.com/png-clipart/20211116/original/pngtree-pizza-pixel-png-image_6940675.png"
+        "pizza.png"
     ]
 
 }
