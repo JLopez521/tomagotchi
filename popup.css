@@ -26,8 +26,8 @@
       position: absolute;
       width: 200px;
       height: 200px;
-      bottom: 100px;      /* sits near the bottom */
-      left: 175px;       /* center-ish */
+      bottom: 900px;      /* sits near the bottom */
+      left: 200px;       /* center-ish */
       background-image: url('drity2.png');
       background-size: contain;
       background-repeat: no-repeat;
