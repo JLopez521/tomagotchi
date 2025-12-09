@@ -60,7 +60,7 @@
         .sprite {
         width: 64px; /* Width of a single frame */
         height: 64px; /* Height of a single frame */
-        background-image: url('pizza.png');
+        background-image: url('https://png.pngtree.com/png-clipart/20211116/original/pngtree-pizza-pixel-png-image_6940675.png');
         background-position: 0 0; /* Initial position */
         animation: walk 1s steps(8) infinite; /* Example animation */
     }
