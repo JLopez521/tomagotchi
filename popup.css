@@ -11,6 +11,7 @@
     #feedUser {
       position: relative;
       color: rgb(0, 0, 0);
+      margin-top: 10px;
       background-color: rgba(238, 0, 255, 0.916);
       text-align: center;
       left: 425px;
