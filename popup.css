@@ -24,10 +24,10 @@
     }
     #dirtyBoy {
       position: absolute;
-      width: 100px;
+      width: 200px;
       height: 200px;
       bottom: 100px;      /* sits near the bottom */
-      left: 150px;       /* center-ish */
+      left: 175px;       /* center-ish */
       background-image: url('drity2.png');
       background-size: contain;
       background-repeat: no-repeat;
