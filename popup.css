@@ -45,19 +45,7 @@
       text-align: center;
       background-color: rgba(149, 42, 42, 0) 
     }
-    #hungryMessage {
-  display: none;
-  position: relative;
-  top: 20px;
-  left: 200px;
-  width: 120px;
-  text-align: center;
-  padding: 5px;
-  font-size: 14px;
-  color: white;
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 6px;
-}
+
     #text {
       display: none;
       margin-top: 10px;

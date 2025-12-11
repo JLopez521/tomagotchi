@@ -1,6 +1,11 @@
+
 document.getElementById('feedUser').addEventListener('click', () => {
     startPizzaAnimation();
       startHungryTimer();
+      // Reset hunger timers + bar
+  resetHunger();
+  startHungryTimer();   // “no food for 1 min” timer
+  startHungerDrain();   // bar draining timer
 });
     document.getElementById('next').addEventListener('click', () => {
       const msg = document.getElementById('text');
@@ -11,33 +16,7 @@ document.getElementById('feedUser').addEventListener('click', () => {
     });
   let hungryTimer = null;
 
-// Show the hungry bubble
-function showHungryMessage() {
-  const hm = document.getElementById("hungryMessage");
-  hm.style.display = "block";
 
-  // Hide after 3 seconds
-  setTimeout(() => {
-    hm.style.display = "none";
-  }, 3000);
-
-  // Restart timer after the message
-  startHungryTimer();
-}
-
-// Starts (or restarts) the 1-minute timer
-function startHungryTimer() {
-  // Clear the old timer so it resets
-  if (hungryTimer !== null) {
-    clearTimeout(hungryTimer);
-  }
-
-  // Start a new 60-second no-feeding countdown
-  hungryTimer = setTimeout(showHungryMessage, 60000);
-}
-
-// Every time the popup opens, start the timer
-startHungryTimer();
 
 const pizza = document.getElementById('pizza');
 
